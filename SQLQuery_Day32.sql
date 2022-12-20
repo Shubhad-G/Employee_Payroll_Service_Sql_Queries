@@ -1,9 +1,7 @@
---------usecase 2--------------
-create table employee_payroll
-(
-    Id int identity(1,1),
-	Name varchar(100),
-	Salary float,
-	StatDate date
-);
 
+--------usecase 3--------------
+Insert into employee_payroll values('Rahul',22000,'1995-5-10');
+Insert into employee_payroll values('Krishna',50000,'1995-7-12');
+Insert into employee_payroll values('Harish',27000,'1993-4-10');
+Insert into employee_payroll values('Shreya',35000,'1995-5-10');
+Insert into employee_payroll values('Naina',30000,'1995-5-10');
